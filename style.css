@@ -1,3 +1,4 @@
+/*CSS do header*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,7 @@
     gap: 16px;
 }
 
+/* CSS do corpo abaixo do header */
 .body {
     display: flex;
     align-items: center;
@@ -70,4 +72,50 @@
     height: 200px;
     margin-left: 100px;
     padding: 0 130px;
+}
+
+/*CSS da parte de container*/
+.container-gen {
+    text-align: center;
+    background-color: white;
+    height: 350px;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+}
+
+.container-info {
+    display: flex;
+    margin-left: 380px;
+    max-width: 100px;
+    gap: 30px;
+}
+
+.image-space {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    color: #1F2937;
+    flex-wrap: wrap;
+    padding: 5px 0;
 }
