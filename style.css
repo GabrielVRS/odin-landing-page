@@ -94,12 +94,13 @@
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-info {
+.container {
     display: flex;
-    margin-left: 380px;
-    max-width: 100px;
+    /*margin-left: 380px;*/
     gap: 30px;
 }
 
@@ -111,11 +112,39 @@
 }
 
 .text {
-    display: flex;
-    text-align: center;
-    align-items: center;
     font-size: 12px;
     color: #1F2937;
-    flex-wrap: wrap;
     padding: 5px 0;
+    max-width: 100px;
+}
+
+/*CSS da citação*/
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.quote-thor {
+    display: flex;
+    align-items: end;
+    text-align: end;
+    justify-content: end;
+    margin-right: 260px;
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 25px;
 }
