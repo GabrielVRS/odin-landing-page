@@ -148,3 +148,51 @@ h3 {
     font-weight: 900;
     font-size: 25px;
 }
+
+/*CSS do call to action*/
+.call-action {
+    height: 100px;
+    background: #3882F6;
+    border: 1px;
+    border-radius: 5px;
+    margin: 60px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.call-title {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.call-subtext {
+    color: #F9FAF8;
+    font-size: 14px;
+}
+
+.call-signup {
+    border: 2px solid #F9FAF8;
+    width: 110px;
+    text-align: center;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-weight: lighter;
+    padding: 3px 0;
+}
+
+/*CSS do footer*/
+
+.footer {
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: lighter;
+}
